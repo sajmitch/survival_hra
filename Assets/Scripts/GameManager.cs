@@ -179,7 +179,7 @@ public class GameManager : MonoBehaviour
             Debug.LogWarning("AudioManager není");
         }
 
-        // zničí všechny nepřátele ve scéně
+        // zničí všechny nepřátele ve scéně - GPT
         foreach (var enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
             Destroy(enemy);

@@ -192,6 +192,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // cervenej hit - GPT
     public void FlashRed()
     {
         StartCoroutine(FlashEffect());

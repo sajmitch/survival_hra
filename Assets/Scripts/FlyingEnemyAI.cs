@@ -122,7 +122,7 @@ public class FlyingEnemyAI : MonoBehaviour
         spriteRenderer.flipX = moveDirection.x < 0;
     }
 
-    // když se netopýr sekne, náhodně změní směr
+    // když se netopýr sekne, náhodně změní směr - gpt
     void ChangeRandomDirection()
     {
         Debug.Log("Netopýr změnil směr, aby se uvolnil!");
@@ -137,7 +137,7 @@ public class FlyingEnemyAI : MonoBehaviour
                 moveDirection = Vector2.left; 
                 break;
             case 2:
-                moveDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized; // 🔀 Náhodný směr
+                moveDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized; // náhodný směr
                 break;
         }
 
